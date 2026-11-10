@@ -1,0 +1,14 @@
+MECÂNICA LOPES — ANDROID
+
+Este pacote é um aplicativo web instalável (PWA), NÃO é um APK.
+Para aparecer Instalar app/Adicionar à tela inicial no Chrome Android:
+1. Publique todos os arquivos desta pasta juntos em um serviço de hospedagem HTTPS (por exemplo, Netlify Drop).
+2. Abra o endereço HTTPS publicado no Chrome do Android.
+3. Menu ⋮ > Adicionar à tela inicial / Instalar app.
+4. Abra pelo novo ícone.
+
+DADOS: os orçamentos ficam no armazenamento do navegador/aplicativo deste celular, sem conta e sem Firebase.
+ANTES de mudar da versão HTML antiga, abra a antiga e toque Fazer backup; guarde o JSON. Depois abra a versão instalada e toque Restaurar backup.
+O backup é essencial também em caso de troca de aparelho ou limpeza dos dados do Chrome.
+O app carrega sem internet após o primeiro acesso, mas a biblioteca de PDF usa CDN e pode precisar de internet para gerar PDFs.
+Não publique o arquivo JSON de backup nem dados de clientes no site.
