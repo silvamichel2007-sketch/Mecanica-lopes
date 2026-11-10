@@ -1,25 +1,15 @@
 {
   "id": "./",
-  "name": "Mecânica Lopes — Orçamentos",
+  "name": "Mecânica Lopes",
   "short_name": "Mecânica Lopes",
-  "description": "Orçamentos locais da Mecânica Lopes",
+  "description": "Orçamentos e diagnósticos da Mecânica Lopes",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#080d17",
   "theme_color": "#10192e",
   "icons": [
-    {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ]
 }
